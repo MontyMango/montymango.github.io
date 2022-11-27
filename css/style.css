@@ -1,3 +1,14 @@
+.slantText  {
+    font-family: cursive;
+}
+
+header  {
+    background-color: aquamarine;
+    font-size: x-large;
+    font-family: "Roboto Thin", serif ;
+    text-align: center;
+}
+
 body    {
     font-family: Georgia, sans-serif;
     font-size: 15px;
