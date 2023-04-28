@@ -31,9 +31,20 @@ li  {
     background-color: white;
 }
 
-.button {
+.redbutton {
     background: crimson;
     color: white;
+    text-decoration: white;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 5px black;
+    width: 25%
+}
+
+.greenbutton    {
+    background: lime;
+    color: black;
     text-decoration: white;
     padding: 10px;
     margin: 30px;
@@ -45,4 +56,10 @@ li  {
 .button:hover   {
     color: white;
     text-decoration: underline;
+}
+
+.squaredborder  {
+    border-radius: 25px;
+    border: thick black;
+    background-color: navajowhite;
 }
