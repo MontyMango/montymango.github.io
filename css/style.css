@@ -2,6 +2,11 @@
     font-family: cursive;
 }
 
+.obnoxiously_large  {
+    font-size: xxx-large;
+    color: red;
+}
+
 header  {
     background-color: aquamarine;
     font-size: x-large;
@@ -60,6 +65,7 @@ li  {
 
 .squaredborder  {
     border-radius: 25px;
-    border: thick black;
+    border: thick groove black;
     background-color: navajowhite;
+    padding: 5px 15px;
 }
