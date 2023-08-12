@@ -40,7 +40,7 @@ li  {
     background: crimson;
     color: white;
     text-decoration: white;
-    padding: 10px;
+    padding: 10px
     margin: 30px;
     border-radius: 5px;
     box-shadow: -5px -5px 5px black;
@@ -67,5 +67,9 @@ li  {
     border-radius: 25px;
     border: thick groove black;
     background-color: navajowhite;
-    padding: 5px 15px;
+    max-width: 500px;
+}
+
+.space  {
+    width: 40px;
 }
