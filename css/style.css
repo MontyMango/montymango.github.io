@@ -40,7 +40,7 @@ li  {
     background: crimson;
     color: white;
     text-decoration: white;
-    padding: 10px
+    padding: 10px;
     margin: 30px;
     border-radius: 5px;
     box-shadow: -5px -5px 5px black;
@@ -72,4 +72,17 @@ li  {
 
 .space  {
     width: 40px;
+}
+
+/* Fun Functions to use. */
+
+/* Inspiration: https://www.w3schools.com/howto/howto_css_display_element_hover.asp */
+.toHide {
+    display: none;
+}
+
+.showHiddenDiv:hover + .toHide  {
+    display: block;
+    color: red;
+    font-size: larger;
 }

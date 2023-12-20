@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/Normalize.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <title>MontyMango's Website</title>
+    <script src="JavaScript/mainpage.js"></script>
 </head>
 
 <header>
@@ -19,10 +20,14 @@
     <h1 class="obnoxiously_large"> Hey you! Yes you! Stop right there! <img src="assets/stop%20sign.png" height="30" width="30" alt="A stop sign"/></h1>
     <p> This site is currently under construction and is slowly forming! </p>
     <p class="slantText"> (Please do not push the obnoxiously big tempting red button below) </p>
-    <p class="redbutton"> <a href="webpages/closed.html"> This big red button does something...
-        But it's ok if you don't want to touch, it's nothing important...</a> </p>
-    <p class="greenbutton"> <a href="./webpages/sample_portfolio.html"> Green means good? Shall we click here instead of
-    the red button??? </a> </p>
+
+    <p class="redbutton showHiddenDiv" onclick="actualRedButton()" > <a href="webpages/closed.html"> The big obnoxious red button  </a> </p>
+    <p class="toHide"> Please... Please do not click on this text! </p>
+
+    <button style="background-color: red;" onclick="redButtonDecoy()">the absolutely real red button</button>
+
+    <p class="greenbutton showHiddenDiv" onclick="greenButton()"> <a href="./webpages/sample_portfolio.html">The boring safe green button</a> </p>
+    <p class="toHide"> Yes, please click this text! Thank you!</p>
 </body>
 
 <footer>
