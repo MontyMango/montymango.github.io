@@ -13,9 +13,16 @@ function sleep(ms)    {
 }
 
 async function start_timer()  {
-    await sleep(3000);
-    numText.innerHTML = "A random number will appear here";
+    await sleep(1500);
+    let tempText= numText.innerHTML;
+    await sleep(1500);
 
+    console.log(tempText + "==" + numText.innerHTML + "?=" + (tempText == numText.innerHTML));
+    
+    // Change text if the text is the same in 3 seconds. 
+    if(tempText == numText.innerHTML)   {
+        numText.innerHTML = "A random number will appear here"
+    }
 }
 
 button.addEventListener("click", function() {
