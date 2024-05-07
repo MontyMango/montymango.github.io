@@ -27,8 +27,10 @@ async function start_timer()  {
 
 button.addEventListener("click", function() {
     numText.innerHTML = random_int();
-    if(numText.innerHTML == 69)  nice.style.color = "green";
-    else nice.style.color = "white";
+    if(numText.innerHTML == 69)  {
+        nice.style.visibility =  "visible"
+    }
+    else nice.style.visibility = "none";
 });
 
 
