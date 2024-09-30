@@ -21,12 +21,15 @@ async function start_timer()  {
     
     // Change text if the text is the same in 3 seconds. 
     if(tempText == numText.innerHTML)   {
-        numText.innerHTML = "A random number will appear here"
+        numText.innerHTML = "A random number will appear here";
+        document.title = "MontyMango's Random Number Generator";
     }
 }
 
 button.addEventListener("click", function() {
-    numText.innerHTML = random_int();
+    let generatedInt = random_int();
+    numText.innerHTML = generatedInt;
+    document.title = generatedInt;
     if(numText.innerHTML == 69)  {
         nice.style.visibility =  "visible"
     }
@@ -56,3 +59,4 @@ button.addEventListener("mousedown", function() {
 button.addEventListener("mouseup", function()   {
     button.innerText = "Enjoy your number!";
 })
+

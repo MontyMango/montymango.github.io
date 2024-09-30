@@ -80,6 +80,11 @@ li  {
     
 }
 
+.space  {
+    width: 40px;
+}
+
+/* Navigation menu */
 .navigation {
     font-size: 15px;
     background-color: lightblue;
@@ -91,8 +96,9 @@ li  {
     background-color: lightcyan;
 }
 
-.space  {
-    width: 40px;
+.nav-space  {
+    width: 1px;
+    background-color: lightblue;
 }
 
 /* Fun Functions to use. */
