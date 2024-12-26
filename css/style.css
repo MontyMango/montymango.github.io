@@ -6,10 +6,11 @@ header  {
 }
 
 body    {
-    font-family: Georgia, sans-serif;
+    font-family: "Roboto Thin", serif;
     font-size: 15px;
     width: 90%;
     margin: 0 auto;
+    background-color: #f0f0f0;
 }
 
 body h1 {
@@ -67,7 +68,7 @@ li  {
     border-radius: 25px;
     border: thick groove black;
     background-color: navajowhite;
-    max-width: 500px;
+    max-width: 75%;
 }
 /* For the header */
 .title  {
@@ -76,29 +77,28 @@ li  {
     margin-bottom: auto;
 }
 
-.title-text {
-    
-}
-
+/* Content */
 .space  {
-    width: 40px;
+    max-width: 25px;
+    min-width: 5px;
+    background-color: #f0f0f0;
 }
 
 /* Navigation menu */
 .navigation {
     font-size: 15px;
-    background-color: lightblue;
+    background-color: #01bcb6;
     border-radius: 15px 15px 0 0;
 }
 
 .nav-item   {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #0165bc;
     background-color: lightcyan;
 }
 
 .nav-space  {
     width: 1px;
-    background-color: lightblue;
+    background-color: #01bcb6;
 }
 
 /* Fun Functions to use. */
